@@ -1,4 +1,4 @@
-<h1 align="center"> KrishiCare </h1> <br>
+<h1 align="center"> KrishiCare Yooo arafat </h1> <br>
 <p align="center">
     <img src="#" alt="logo" width="300">
   </a>
