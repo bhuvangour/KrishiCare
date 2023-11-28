@@ -19,5 +19,5 @@ Better Crops, Better Life
 
 ## Problem Statement
 
-<p> lorem </p>
-College Name: Vellore Institute of Technology <br/>
+**<p> lorem </p>
+College Name: Vellore Institute of Technology <br/>**
