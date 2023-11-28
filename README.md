@@ -19,5 +19,5 @@ Better Crops, Better Life
 
 ## Problem Statement
 
-<p> prob statement </p> <br/>
-College Name: Lawde ka college hai ,<br/>
+<p> prob statement </p>
+College Name: Vellore Institute of Technology <br/>
