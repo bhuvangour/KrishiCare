@@ -11,8 +11,8 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, welcome to KrishiUnnati",
+        "Hey :)",
+        "Hello, welcome to KrishiCare",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
@@ -32,20 +32,20 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "KrishiUnnati",
+      "tag": "KrishiCare",
         "patterns": [
-          "What is Krishiunnati?",
-          "What is Krishi unnati?",
-          "Why use this website Krishiunnati?",
+          "What is KrishiCare?",
+          "What is Krishi Care?",
+          "Why use this website KrishiCare?",
           "how will you help farmers?",
-          "How krishiunnati could help me?",
+          "How KrishiCare could help me?",
           "What you can do?",
           "What help you provide?",
           "How you can be helpful?",
           "What support is offered"
         ],
       "responses": [
-        "KishiUnnati is a teleconsultation website for farmers! We provide online/offline help to farmers in remote areaS.Farmers can get support in various agricultural activities, by the help of consultants as well as connect with their peers through the website."
+        "KishiUnnati is a teleconsultation website for farmers! We provide online/offline help to farmers in remote areas. Farmers can get support in various agricultural activities, by the help of consultants as well as connect with their peers through the website."
       ]
     },
     {
@@ -134,7 +134,7 @@
         "What are the Features of this website?",
         "What help does it offer?",
         "What can I use from this website?",
-        "Features of KrishiUnnati"
+        "Features of KrishiCare"
       ],
       "responses": [
         "We offer Plant and it's Disease's Identifaction,Forum,ChatBot,Voice Assistant,Weather Prediction,A list of Govt Schemes helpful for farmers, Whatsapp Bot,SMS Bot,IVR service.",
@@ -194,7 +194,7 @@
         "What are the varieties of Rice in India?"
       ],
       "responses": [
-        "There are more than 50 different varieties of Rice grown in differt parts of India. Some of them are Basmati, Dubraj, Burma Black, Gandhsale, Gobindobhog,HMT Kolam, Jawaful, Kalabati, Laxmibhog, Mysore Mallige, Parmal. "
+        "There are more than 50 different varieties of Rice grown in differt parts of India. Some of them are Basmati, Dubraj, Burma Black, Gandhsale, Gobindobhog, HMT Kolam, Jawaful, Kalabati, Laxmibhog, Mysore Mallige, Parmal. "
       ]
     },
 

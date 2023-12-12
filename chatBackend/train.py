@@ -1,11 +1,9 @@
 import numpy as np
 import random
 import json
-
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-
 from nltk_utils import bag_of_words, tokenize, stem
 from model import NeuralNet
 
@@ -123,7 +121,7 @@ data = {
 "tags": tags
 }
 
-FILE = "data.pth"
+# saving training data to $FILE
+FILE = "trained_data.pth"
 torch.save(data, FILE)
-
-print(f'training complete. file saved to {FILE}')
+print(f'Bot Trained! File saved to {FILE}')
