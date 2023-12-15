@@ -6,10 +6,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% trans "Krishi Unnati" %}</title>
+    <title>{% trans "Krishi Care" %}</title>
     {% load pwa %}
-    {% pwa_meta_data %}
-    {% pwa_meta_script %}
+    <!-- {% pwa_meta_data %}
+    {% pwa_meta_script %} -->
     {% load static %}
     <link rel="stylesheet" href="{% static 'Css/voice-overlay.css' %}">
     <link rel="stylesheet" href="{% static 'Css/Home.css' %}">
@@ -179,7 +179,7 @@
     
     <div class="main-home">
         <div class="text-container">
-          <h1>{% trans "Krishi Unnati" %}</h1>
+          <h1>{% trans "Krishi Care" %}</h1>
           <p style="font-size:40px;">
             {% blocktrans trimmed%}
             एक कदम सफल कृषि 
@@ -292,7 +292,7 @@
       </div>
       <div class="forum-fig-right">
         <div class="forum-fig-sections">
-          <div class="tabs"><a href="https://krishiunnatiforum.epizy.com/?i=1" target="blank">{% trans "Forum" %}</a></div>
+          <div class="tabs"><a href="https://krishiCareforum.epizy.com/?i=1" target="blank">{% trans "Forum" %}</a></div>
           <div class="tabs"><a href="#" target="blank">{% trans "Ask Experts" %}</a></div>
           <div class="tabs"><a href="#" target="blank">{% trans "Rent/Sell" %}</a></div>
         </div>
@@ -336,7 +336,7 @@
           <h3>{% trans "Services" %}</h3>
         <ul>
           <li><a href="/imgupload">{% trans "Plant Identification" %}</a></li>
-           <li><a href="https://krishiunnatiforum.epizy.com/?i=1">{% trans "Forum" %}</a></li>
+           <li><a href="https://krishiCareforum.epizy.com/?i=1">{% trans "Forum" %}</a></li>
             <li><a href="#">{% trans "Voice Assistant" %}</a></li>
             <li><a href="/weather">{% trans "Weather Prediction" %}</a></li>
             <li><a href="#">{% trans "Database Analysis" %}</a></li>
