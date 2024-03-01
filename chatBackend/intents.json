@@ -11,8 +11,8 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, welcome to KrishiUnnati",
+        "Hey :)",
+        "Hello, welcome to KrishiCare",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
@@ -32,34 +32,20 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "KrishiUnnati",
+      "tag": "KrishiCare",
         "patterns": [
-          "What is Krishiunnati?",
-          "What is Krishi unnati?",
-          "Why use this website Krishiunnati?",
+          "What is KrishiCare?",
+          "What is Krishi Care?",
+          "Why use this website KrishiCare?",
           "how will you help farmers?",
-          "How krishiunnati could help me?",
+          "How KrishiCare could help me?",
           "What you can do?",
           "What help you provide?",
           "How you can be helpful?",
           "What support is offered"
         ],
       "responses": [
-        "KishiUnnati is a teleconsultation website for farmers! We provide online/offline help to farmers in remote areaS.Farmers can get support in various agricultural activities, by the help of consultants as well as connect with their peers through the website."
-      ]
-    },
-    {
-      "tag": "diseases",
-      "patterns": [
-        "Can you help me to identify and diagnose the plant disease?",
-        "solution for plant disease",
-        "how to find out about plant disease and cure?",
-        "can you help me with this crop disease?"
-      ],
-      "responses": [
-        "yes we have a feature to identify plant diseases",
-        "you can use the plant identification feature!",
-        "click a picture and upload in the plant diagnosis page to get plant health details"
+        "KrishiCare is a teleconsultation website for farmers! We provide online/offline help to farmers in remote areas. Farmers can get support in various agricultural activities, by the help of consultants as well as connect with their peers through the website."
       ]
     },
     {
@@ -85,9 +71,9 @@
           "what is your customer care number?"
         ],
         "responses": [
-          "we have an email xxxxxxx",
-          "we have a customer care number xxxxxxx",
-          "you can contact us on xxxxxxx "
+          "we have an email demo@krishicare.org",
+          "we have a customer care number 1234567890",
+          "you can contact us on 020-45678901 "
         ]
     },
     {
@@ -125,7 +111,7 @@
           "offline services?"  
       ],
       "responses": [
-          "yes we have IVR services and sms services."
+          "Currently we are underway to improve our offline services and we will introduce SMS services soon!"
       ]
     },
     {
@@ -134,11 +120,11 @@
         "What are the Features of this website?",
         "What help does it offer?",
         "What can I use from this website?",
-        "Features of KrishiUnnati"
+        "Features of KrishiCare"
       ],
       "responses": [
-        "We offer Plant and it's Disease's Identifaction,Forum,ChatBot,Voice Assistant,Weather Prediction,A list of Govt Schemes helpful for farmers, Whatsapp Bot,SMS Bot,IVR service.",
-        "Our Features are : Plant and it's Disease's Identifaction,Forum,ChatBot,Voice Assistant,Weather Prediction,A list of Govt Schemes helpful for farmers, Whatsapp Bot,SMS Bot,IVR service."
+        "We offer a platform to help the farmers benefit in the agricultural sector and to provide personal attention to individual farmers. We also provide online teleconsultation services.",
+        "Our Features are : Personal attention to individual farmers, Crop Health checkups and online teleconsultation services."
       ]
     },
     
@@ -194,7 +180,7 @@
         "What are the varieties of Rice in India?"
       ],
       "responses": [
-        "There are more than 50 different varieties of Rice grown in differt parts of India. Some of them are Basmati, Dubraj, Burma Black, Gandhsale, Gobindobhog,HMT Kolam, Jawaful, Kalabati, Laxmibhog, Mysore Mallige, Parmal. "
+        "There are more than 50 different varieties of Rice grown in differt parts of India. Some of them are Basmati, Dubraj, Burma Black, Gandhsale, Gobindobhog, HMT Kolam, Jawaful, Kalabati, Laxmibhog, Mysore Mallige, Parmal. "
       ]
     },
 
@@ -267,7 +253,51 @@
       "responses": [
         "Important crops produced during Zaid season are Watermelon, Muskmelon, Cucumber, Vegetables and Fodder crops."
       ]
-    }
+    },
+    {
+      "tag": "soil_health",
+      "patterns": [
+         "How do I check and improve soil health?",
+         "can you suggest me any method to enhance soil health?",
+         "How to ensure the health of my soil?"
+      ],
+      "responses": [
+         "Yes, we can suggest some methods to improve soil health. Regular soil testing can help identify nutrient deficiencies. Applying compost or manure can increase soil organic matter and improve its structure. Adding limestone or other lime sources can increase pH levels and reduce soil acidity. Also, reducing soil tillage and implementing a healthy mulching strategy can help improve soil health."
+      ]
+     },
+     {
+      "tag": "temperature",
+      "patterns": [
+         "How do I determine the optimal temperature for my crop?",
+         "what is the ideal temperature for plant growth?",
+         "how do I find the ideal temperature for my crops?"
+      ],
+      "responses": [
+         "To determine the optimal temperature for your crop, it's essential to consider the crop's specific requirements. Some crops may thrive in warmer temperatures, while others may require cooler conditions. Keep in mind that the optimal temperature varies depending on the crop's life stage, such as vegetative, reproductive, or flowering. You can also use weather forecasts or a nearby weather station to get temperature data for your area."
+      ]
+     },
+     {
+      "tag": "soil_type",
+      "patterns": [
+         "What type of soil is suitable for growing [CROP]?",
+         "what is the best soil type for my crop?",
+         "how do I determine the ideal soil type for my crop?"
+      ],
+      "responses": [
+         "The ideal soil type for a particular crop can vary significantly. Some crops prefer well-drained soils, while others may thrive in more acidic or alkaline conditions. To determine the best soil type for your crop, you can refer to our crop expert. They can provide guidance based on your crop's specific needs and your available soil types."
+      ]
+     },
+     {
+      "tag": "crops_soil",
+      "patterns": [
+         "What crops can I grow in my soil?",
+         "which crops are suitable for my soil type?",
+         "how do I find the best crops for my soil type?"
+      ],
+      "responses": [
+         "Determining the best crops for your soil type requires knowledge of the soil's characteristics, such as texture, drainage, and pH levels. You can consult your local agricultural extension office or a crop expert to provide guidance on suitable crops based on your soil's properties. Additionally, soil testing can help you understand your soil's composition and determine the most suitable crops."
+      ]
+     }
 
 
   ]

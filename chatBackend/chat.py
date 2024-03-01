@@ -11,7 +11,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 with open('chatBackend/intents.json', 'r') as json_data:
     intents = json.load(json_data)
 
-FILE = "chatBackend/data.pth"
+FILE = "chatBackend/trained_data.pth"
 data = torch.load(FILE)
 
 input_size = data["input_size"]
@@ -27,9 +27,10 @@ model.eval()
 
 bot_name = "bot"
 print("Let's chat! (type 'quit' to exit)")
+
 def chat(request):
     while True:
-        sentence = request.POST.get('input',False)
+        sentence = request.POST.get('input', False)
         if sentence == "quit":
             break
 
@@ -48,7 +49,7 @@ def chat(request):
         if prob.item() > 0.75:
             for intent in intents['intents']:
                 if tag == intent["tag"]:
-                    botvalue=f"{random.choice(intent['responses'])}"
+                    bot_response = random.choice(intent['responses'])
         else:
-            botvalue=f"I do not understand..."
-        return botvalue
+            bot_response = "I'm sorry, I don't understand your message..."
+        return bot_response
