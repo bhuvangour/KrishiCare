@@ -52,5 +52,4 @@ def chat(request):
                     bot_response = random.choice(intent['responses'])
         else:
             bot_response = "I'm sorry, I don't understand your message..."
-
         return bot_response
