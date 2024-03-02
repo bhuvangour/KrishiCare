@@ -4,6 +4,7 @@ django-pwa
 django-simple-pwa
 django-allauth
 SpeechRecognition
+geopy
 rosetta
 scipy
 pandas
