@@ -45,5 +45,5 @@ pip install -r requirements.txt
 If executed successfully,
 
 ```sh {"id":"01HQZ4XKGT0HW3CHNHM6BEQ87F"}
-django manage.py runserver
+python manage.py runserver
 ```
