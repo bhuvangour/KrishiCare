@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% trans "Krishi Care" %}</title>
   {% load pwa %}
-  <!-- {% pwa_meta_data %}
-    {% pwa_meta_script %} -->
+  {% pwa_meta_data %}
+  {% pwa_meta_script %} 
   {% load static %}
   <link rel="stylesheet" href="{% static 'Css/voice-overlay.css' %}">
   <link rel="stylesheet" href="{% static 'Css/Home.css' %}">
@@ -53,7 +53,7 @@
         {% get_available_languages as LANGUAGES %}
         {% get_language_info_list for LANGUAGES as languages %}
         {% for language in languages %}
-        <option value="{{ language.code }}" {% if language.code==LANGUAGE_CODE %} selected{% endif %}>
+        <option value="{{ language.code }}" {% if language.code == LANGUAGE_CODE %} selected{% endif %}>
           {{ language.name_local }} ({{ language.code }})
         </option>
         {% endfor %}
@@ -135,7 +135,7 @@
     <div class="menu-link">
       <ul>
         <li><a href="/">{% trans "Home" %}</a></li>
-        <!-- <li><a href="/imgupload">{% trans "Plant Identification" %}</a></li> -->
+        <a href="/imgupload">{% trans "Plant Identification" %}</a></li>
         <li><a href="/GovtScheme">{% trans "Government Schemes" %}</a></li>
         <li><a href="/map">{% trans "Map" %}</a>
         </li>
@@ -166,7 +166,7 @@
     <div id="myLinks">
       <a href="/home">Home</a>
       <a href="/map">Map</a>
-      <!-- <a href="/imgupload">plant Identification</a> -->
+      <a href="/imgupload">plant Identification</a>
       <a href="/GovtScheme">Government Schemes</a>
       <a href="/login_user">Login</a>
       <a href="/register">SignUp</a>
@@ -200,7 +200,7 @@
   </div>
 
   <!-- Plant Identification  -->
-  <!-- <div class="main-container-plant">
+  <div class="main-container-plant">
     <div class="left-container">
       <div>
         <img src="{% static 'Images/plant.png' %}" alt="plant" class="square-plant" />
@@ -215,7 +215,7 @@
         <a href="/imgupload" id="plant-button">{% trans "Diagnose your plant" %}</a>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <!-- Map  -->
   <div class="map-main">
@@ -335,18 +335,17 @@
         <ul>
           <li><a href="#">{% trans "About Us" %}</a></li>
           <li></span><a href="#">{% trans "Contact Us" %}</a></li>
-          <!-- <li><a href="#">{% trans "SIH 2022" %}</a></li> -->
         </ul>
       </div>
 
       <div class="f-services">
         <h3>{% trans "Services" %}</h3>
         <ul>
-          <!-- <li><a href="/imgupload">{% trans "Plant Identification" %}</a></li> -->
+          <li><a href="/imgupload">{% trans "Plant Identification" %}</a></li>
           <!-- <li><a href="https://krishiCareforum.epizy.com/?i=1">{% trans "Forum" %}</a></li> -->
           <li><a href="#">{% trans "Voice Assistant" %}</a></li>
           <li><a href="/weather">{% trans "Weather Prediction" %}</a></li>
-          <!-- <li><a href="#">{% trans "Database Analysis" %}</a></li> -->
+          <li><a href="#">{% trans "Database Analysis" %}</a></li>
           <li><a href="#">{% trans "Government Scheme" %}</a></li>
         </ul>
       </div>

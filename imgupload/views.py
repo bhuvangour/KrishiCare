@@ -101,7 +101,7 @@ def imageprocess(request):
                             similar_images.append(a['url'])
 
         if(probability[0]<0.6):
-            messages.error(request, 'Our Database not found very good match for this ')
+            messages.error(request, 'Our Database did not found a very good match for this :( ')
             return redirect(imgupload)
             
 

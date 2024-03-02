@@ -137,12 +137,12 @@ def voice(request):
                               return redirect('home')
                          elif(MyText.find('map') != -1 or MyText.find('naksha') !=-1):
                               return redirect('map')
-                         elif(MyText.find('akshat') != -1 or MyText.find('sanskar') !=-1):
-                              return redirect('https://akshat-pandey16.github.io/')
+                         elif(MyText.find('Tanish') != -1 or MyText.find('sanskar') !=-1):
+                              return redirect('https://github.com/TanZeus')
                          elif(MyText.find('weather') != -1 or MyText.find('mausam') !=-1):
                               return redirect('weather')
                          elif(MyText.find('forum') != -1 or MyText.find('sampark') !=-1):
-                              return redirect('https://krishiunnatiforum.epizy.com/')
+                              return redirect('https://www.epizy.com/')
                except sr.RequestError as e:
                     print("Could not request results; {0}".format(e))
          
