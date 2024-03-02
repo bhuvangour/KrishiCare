@@ -45,5 +45,7 @@ pip install -r requirements.txt
 If executed successfully,
 
 ```sh {"id":"01HQZ4XKGT0HW3CHNHM6BEQ87F"}
+python manage.py collectstatic 
 python manage.py runserver
+
 ```

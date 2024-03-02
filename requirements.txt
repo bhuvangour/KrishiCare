@@ -1,6 +1,5 @@
 django
 django-rosetta
-django-pwa
 django-simple-pwa
 django-allauth
 SpeechRecognition
