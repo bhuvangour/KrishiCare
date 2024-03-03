@@ -5,7 +5,7 @@ runme:
 ---
 <br>
 <p align="center">
-    <img src="static/Images/Logo.png" alt="logo" width="500">
+    <img src="static/Images/Logo.png" alt="logo" width="600">
   </a>
 </p>
 
