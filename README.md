@@ -35,6 +35,7 @@ India is predominantly an agricultural country. Farming is a major occupation in
 ## Running the Project
 
 Run the following commands (dev build)
+You can skip creating a virtual environment if there are errors.
 
 ```sh {"id":"01HQZ4SVEKP6088210YNNXH84Y"}
 python -m venv venv
