@@ -3,15 +3,14 @@ runme:
   id: 01HQZ3WD4GGREC2RCE9AZRSZWJ
   version: v3
 ---
-
-<h1 align="center"> KrishiCare </h1> <br>
+<br>
 <p align="center">
-    <img src="#" alt="logo" width="300">
+    <img src="static/Images/Logo.png" alt="logo" width="500">
   </a>
 </p>
 
 <p align="center">
-#Better Crops, Better Life
+<b>#Better Crops, Better Life </b>
 </p>
 
 ## Table of Contents
@@ -25,8 +24,7 @@ runme:
 
 ## Problem Statement
 
-** lorem 
-College Name: Vellore Institute of Technology **
+**College Name: Vellore Institute of Technology**
 
 ## Description of Project
 
@@ -43,7 +41,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-If executed successfully,
+Next
 
 ```sh {"id":"01HQZ4XKGT0HW3CHNHM6BEQ87F"}
 python manage.py collectstatic 
