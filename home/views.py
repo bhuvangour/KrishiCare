@@ -54,6 +54,9 @@ def profile2(request):
 def GovtScheme(request):
     return render(request, 'GovtScheme.html')
 
+def directory(request):
+    return render(request, 'directory.html')
+
 # Create your views here.
 def home(request):
     return render(request, 'home.html')

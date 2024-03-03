@@ -11,6 +11,7 @@
   <title>{% trans "Krishi Care" %}</title>
   {% pwa_meta_data %}
   {% pwa_meta_script %} 
+  <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
   <link rel="stylesheet" href="{% static 'Css/voice-overlay.css' %}">
   <link rel="stylesheet" href="{% static 'Css/Home.css' %}">
   <link rel="stylesheet" href="{% static 'Css/Header.css' %}">
@@ -137,6 +138,7 @@
         <li><a href="/">{% trans "Home" %}</a></li>
         <a href="/imgupload">{% trans "Plant Identification" %}</a></li>
         <li><a href="/GovtScheme">{% trans "Government Schemes" %}</a></li>
+        <li><a href="/directory">{% trans "Directory" %}</a>
         <li><a href="/map">{% trans "Map" %}</a>
         </li>
       </ul>
@@ -166,8 +168,9 @@
     <div id="myLinks">
       <a href="/home">Home</a>
       <a href="/map">Map</a>
-      <a href="/imgupload">plant Identification</a>
+      <a href="/imgupload">Plant Identification</a>
       <a href="/GovtScheme">Government Schemes</a>
+      <a href="/consultation">Consultation</a>
       <a href="/login_user">Login</a>
       <a href="/register">SignUp</a>
     </div>

@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'home',
     'imgupload',
     'weatherapp',
-
+    'consult',
     'rosetta', # for translation
     'pwa', # for progressive web app
 ]
@@ -145,7 +145,7 @@ gettext = lambda s: s
 LANGUAGES = (
     ('en-us', ('English')),
     ('hi', ('Hindi')),
-    ('kn', ('Kannada')),
+    ('mr', ('Marathi'))
 )
 
 LOCALE_PATHS = (

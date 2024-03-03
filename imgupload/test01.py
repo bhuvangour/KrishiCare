@@ -10,7 +10,7 @@ def encode_file(file_name):
 def identify_plant(file_names):
     # see the docs for more optional attributes
     params = {
-        "api_key": "jG9QdJSDFFU1aQRfPlwdUnXkpWPLlCvr3akb4liPTG4aptWK3V",
+        "api_key": "r9T54HmSyf6xc1TBgS6HH1FThIa8Z3IhYoU2MalueQ0IPZT6f4",
         "images": [encode_file(img) for img in file_names],
         "latitude": 49.1951239,
         "longitude": 16.6077111,

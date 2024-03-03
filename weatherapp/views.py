@@ -9,7 +9,7 @@ from rfc3339 import rfc3339
 
 # Create your views here.
 
-apikey="6350f4054e660ee8b2e95d58c038accb"
+apikey="9ae81662b94f21d7993409341d5660f4"
 
 def input(request):
     return render(request,'weather.html')
@@ -22,7 +22,7 @@ def result(request):
     x=location.latitude
     y=location.longitude
     
-    forecast_url ="https://api.agromonitoring.com/agro/1.0/weather/forecast?lat=%s&lon=%s9&appid=%s"%(x,y,apikey)
+    forecast_url ="https://api.agromonitoring.com/agro/1.0/weather?lat=%s&lon=%s9&appid=%s"%(x,y,apikey)
     response_forecast = urllib.request.urlopen(forecast_url)
     Json_Data_forecast = json.loads(response_forecast.read())
     responsedate=[]
@@ -52,14 +52,5 @@ def result(request):
                 responsehumidity.append(value)
                              
     zipped=zip(responsedate,responsedescription,responsetemp,responsehumidity)
-    
 
-
-           
-
-
-            
-
-    
-    
     return render(request,'wresult.html',{'location':location.address,'responsedate':responsedate,'responsedescription':responsedescription,'responsetemp':responsetemp,'zipped':zipped})
