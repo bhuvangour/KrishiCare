@@ -83,14 +83,14 @@ var simplemaps_countrymap_mapdata={
     "2": {
       name: "Andhra Pradesh",
       description: "Major Crops Grown: Rice, Cotton, Sunflower, Groundnut, Cashew Nuts, Black Gram, Sugarcane, Turmeric and Tobacco. Major type of Soil found: Black (Regur soil). ",
-      color: "default",
+      color: "red",
       hover_color: "default",
       url: "default"
     },
     "3": {
       name: "Arunachal Pradesh",
       description: "Major Crops Grown: Rice, Millet, Wheat, Pulses, Sugarcane, Potatoes, Pineapple, Oranges, Banana, Apple, Peach, Plum, Tea and Coffee. Major type of Soil found: Alluvial. ",
-      color: "default",
+      color: "red",
       hover_color: "default",
       url: "default"
     },
@@ -155,7 +155,7 @@ var simplemaps_countrymap_mapdata={
       description: "Major Crops Grown: Great Millet, Bajra, Maize, Paddy, Groundnut, Cotton, Wheat, Sesame, Mustard, Cumin, Rapeseed, Mustard, Castor, Onion, Banana, Chikoo, Guava, Cauliflower and Tobacco.  Major type of Soil found: Alluvial and Black( Regur Soil). ",
       color: "default",
       hover_color: "default",
-      url: "https://github.com/"
+      url: "default"
     },
     "13": {
       name: "Haryana",
@@ -204,7 +204,7 @@ var simplemaps_countrymap_mapdata={
       description: "Major Crops Grown: Soybean, Rice, Maize, Bajara, Tur, Masoor, Wheat, Gram, Mustard, Cotton, Jowar, Sugarcane, Custard Apple and Banana. Major type of Soil found: Black (Regur soil) and Laterite.",
       color: "default",
       hover_color: "default",
-      url: "https://github.com/"
+      url: "default"
     },
     "21": {
       name: "Maharashtra",
