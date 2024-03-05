@@ -1,8 +1,16 @@
 venv/
+<<<<<<< HEAD
 .gitattributes
+=======
+>>>>>>> fbbed00967309b472ad6ab469b77c1a31ec16433
 chatBackend/__pycache__/
 consult/__pycache__/
 home/__pycache__/
 imgupload/__pycache__/
 Krish/__pycache__/
+<<<<<<< HEAD
 weatherapp/__pycache__/
+=======
+weatherapp/__pycache__/
+consult/migrations/
+>>>>>>> fbbed00967309b472ad6ab469b77c1a31ec16433
