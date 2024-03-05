@@ -83,7 +83,7 @@ var simplemaps_countrymap_mapdata={
     "2": {
         name: "Andhra Pradesh",
         description: "Major Crops Grown: Rice, Cotton, Sunflower, Groundnut, Cashew Nuts, Black Gram, Sugarcane, Turmeric and Tobacco. Major type of Soil found: Black (Regur soil).",
-        color: "#000000",
+        color: "#92745B",
         hover_color: "default",
         url: "default"
     },
@@ -203,14 +203,14 @@ var simplemaps_countrymap_mapdata={
     "20": {
         name: "Madhya Pradesh",
         description: "Major Crops Grown: Soybean, Rice, Maize, Bajara, Tur, Masoor, Wheat, Gram, Mustard, Cotton, Jowar, Sugarcane, Custard Apple and Banana. Major type of Soil found: Black (Regur soil) and Laterite.",
-        color: "#000000",
+        color: "#92745B",
         hover_color: "default",
         url: "default"
     },
     "21": {
         name: "Maharashtra",
         description: "Major Crops Grown: Rice, Jowar, Arhar, Barley, Bajra, Sugarcane, Sunflower, Cotton, Soyabean, Groundnut, Tobacco, Lentil, Peas, Banana, Mango, Cashew and Guava. Major type of Soil found: Black (Regur soil).",
-        color: "#000000",
+        color: "#92745B",
         hover_color: "default",
         url: "default"
     },
@@ -322,7 +322,7 @@ var simplemaps_countrymap_mapdata={
     "37": {
         name: "Telangana",
         description: "Major Crops Grown: Rice, Maize, Pulses, Groundnut, Cotton, Chillies, Sugarcane, Tobacco, Turmeric, Orange, Mango, Cucumber, Tomato and Lemon. Major type of Soil found: Black (Regur soil).",
-        color: "#000000",
+        color: "#92745B",
         hover_color: "default",
         url: "default"
     },
