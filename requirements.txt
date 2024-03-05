@@ -3,6 +3,7 @@ django-rosetta
 django-simple-pwa
 django-allauth
 SpeechRecognition
+pillow
 geopy
 rfc3339
 rosetta

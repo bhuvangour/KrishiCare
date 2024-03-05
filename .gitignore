@@ -1,1 +1,8 @@
 venv/
+chatBackend/__pycache__/
+consult/__pycache__/
+home/__pycache__/
+imgupload/__pycache__/
+Krish/__pycache__/
+weatherapp/__pycache__/
+consult/migrations/
