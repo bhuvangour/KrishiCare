@@ -1,5 +1,15 @@
 <html>
     {% load i18n %}
+  <head>
+    <meta charset="UTF-8" />
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
+    <script href="{% static 'https://kit.fontawesome.com/64d58efce2.js' %}" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'css/weather.css' %}" />
+    <title>{% trans "Weather Forecast" %}</title>
+  </head>
+
 <body>
     
     <form action='/weatherresult' method='POST'>
@@ -14,17 +24,8 @@
 
 
 <!DOCTYPE html>
-{% load i18n %}
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    {% load static %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
-    <script href="{% static 'https://kit.fontawesome.com/64d58efce2.js' %}" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="{% static 'css/weather.css' %}" />
-    <title>{% trans "Weather Forecast" %}</title>
-  </head>
+
+  {%comment%}
   <body>
     <div class="translate-inner">
       <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
@@ -146,4 +147,4 @@
     <script src="{% static 'Js/signup.js' %}"></script>
   </body>
 </html>
-
+{%endcomment%}

@@ -3,6 +3,7 @@ runme:
   id: 01HQZ3WD4GGREC2RCE9AZRSZWJ
   version: v3
 ---
+
 <br>
 <p align="center">
     <img src="static/Images/Logo.png" alt="logo" width="600">
@@ -38,7 +39,8 @@ You can skip creating a virtual environment if there are errors.
 ```sh {"id":"01HQZ4SVEKP6088210YNNXH84Y"}
 python -m venv venv
 ./venv/Scripts/Activate.ps1
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
+
 ```
 
 Next
@@ -46,5 +48,4 @@ Next
 ```sh {"id":"01HQZ4XKGT0HW3CHNHM6BEQ87F"}
 python manage.py collectstatic 
 python manage.py runserver
-
 ```
