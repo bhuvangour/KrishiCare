@@ -1,33 +1,64 @@
-*{
-    background-color: #FFF7EC ;
+* {
+    background-color: #efdfdf;
     margin: auto;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
-    background-color: #FFF7EC;
+    background-color: #efdfdf;
 }
 
-h2{
+h2 {
     color: black;
 }
 
-.bg{
-    background-color: #06805B;
+.bg {
+    background-color: #764040;
 }
 
-.textbg{
-    background-color: #06805B;
+.textbg {
+    background-color: #764040;
+    border-radius: 10%;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.linebreak{
+.linebreak {
     padding-bottom: 5vh;
 
 }
 
-a{
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-weight: 650;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* a{
     text-decoration: none;
-    
-    background-color: #06805B;
+    background-color: #4c6995;
+} */
+
+h5 {
+    color: #182539;
+    background-color: #764040;
+    text-decoration: none;
+    border-radius: 10%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.p-3 {
+    border-radius: 10%;
+    padding: 5rem !important;
+    padding-top: 1rem !important;
+    padding-right: 1rem !important;
+    padding-bottom: 1rem !important;
+    padding-left: 1rem !important;
+
 }
