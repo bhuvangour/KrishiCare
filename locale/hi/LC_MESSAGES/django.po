@@ -146,11 +146,6 @@ msgstr "बीमारी का इलाज"
 msgid "About"
 msgstr "हमारे बारे में"
 
-#: .\templates\Plant.html:151 .\templates\index.html:305
-#: .\templates\result.html:199
-msgid "SIH 2022"
-msgstr "एसआईएच 2022"
-
 #: .\templates\Plant.html:156 .\templates\index.html:282
 #: .\templates\index.html:310 .\templates\result.html:204
 msgid "Services"
