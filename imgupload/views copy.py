@@ -18,8 +18,8 @@ def imageprocess(request):
     form=ImageUploadForm(request.POST, request.FILES )
     if form.is_valid():
         handel_uploaded_file(request.FILES['image'])
-        img_path = 'img.jpg'
-        x=identify_plant(['img.jpg'])
+        img_path = 'imageFolder/img.jpg'
+        x=identify_plant(["imageFolder/img.jpg"])
         res_orginal=[]
         res_value=[]
         
@@ -106,12 +106,12 @@ def imageprocess(request):
             
 
         t=tables()
-        for x in range(2):
+        for x in range(3):
             con=sql_connection()
             mycursor = con.cursor()
             querry="insert into plant values(%s,%s,%s,%s,now())"
-            print("plant_name [", plant_name,"]","namex [", name[x],"]", "prob [",probability[x],"]")
-            data=[str(plant_name),str(name[x]),probability[x],'bhopal']
+            
+            data=[str(plant_name),str(name[x]),probability[x],'bengluru']
             mycursor.execute(querry,data)
             mycursor.close()
             con.commit()
@@ -121,7 +121,7 @@ def imageprocess(request):
         'common_names':common_names,'dis_desc':dis_desc,'wiki_url':wiki_url,'similar_images':similar_images,'name':name,'probability':probability})
 
 def handel_uploaded_file(f):
-    with open('img.jpg','wb+')as destination:
+    with open('imgFolder/img.jpg','wb+')as destination:
         for chunk in f.chunks():
             destination.write(chunk)
 

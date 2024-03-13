@@ -3,6 +3,12 @@ django-rosetta
 django-simple-pwa
 django-allauth
 SpeechRecognition
+pyyaml
+h5py
+matplotlib
+torchvision
+torchsummary
+tensorflow
 pillow
 geopy
 rfc3339
