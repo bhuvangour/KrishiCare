@@ -7,3 +7,9 @@ imgupload/__pycache__/
 Krish/__pycache__/
 weatherapp/__pycache__/
 temp/
+consult/migrations/__pycache__/
+chatBackend/migrations/__pycache__/
+imgupload/migrations/__pycache__/
+Krish/migrations/__pycache__/
+weatherapp/migrations/__pycache__/
+home/migrations/__pycache__/

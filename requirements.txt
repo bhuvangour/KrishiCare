@@ -9,6 +9,7 @@ matplotlib
 torchvision
 torchsummary
 tensorflow
+pyAudio
 pillow
 geopy
 rfc3339
