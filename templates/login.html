@@ -17,7 +17,7 @@
 <body>
     <div class="voice">
         <div class="inside-container"> 
-          <form method='POST' action='vr'>
+          <form method="POST" action="vr">
             {% csrf_token %}
             <button type='submit' name='vr2' onclick="overlay_on()"><i class="fa-solid fa-microphone"></i></button>
           </form>
@@ -63,7 +63,7 @@
                 <div class="col col-md-auto">or</div>
                 <div class="col"><hr></div>
             </div>
-            <form action="{% url 'login_user' %}" method="POST" class="col g-3">
+            <form action="{% url 'home' %}" class="col g-3">
                 {% csrf_token %}
                 <div class="col-md-6 form-group">
                     <label for="inputEmail4" class="label">{% trans "Email/Phone Number" %}</label>

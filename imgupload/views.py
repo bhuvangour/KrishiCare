@@ -110,7 +110,7 @@ def imageprocess(request):
             con=sql_connection()
             mycursor = con.cursor()
             querry="insert into plant values(%s,%s,%s,%s,now())"
-            print("plant_name [", plant_name,"]","namex [", name[x],"]", "prob [",probability[x],"]")
+            print("Label_name:[", plant_name,"]","namex:[", name[x],"]", "Acc:[",probability[x],"]")
             data=[str(plant_name),str(name[x]),probability[x],'bhopal']
             mycursor.execute(querry,data)
             mycursor.close()
@@ -122,6 +122,9 @@ def imageprocess(request):
 
 def handel_uploaded_file(f):
     with open('img.jpg','wb+')as destination:
+        for chunk in f.chunks():
+            destination.write(chunk)
+    with open('static/img.jpg','wb+')as destination:
         for chunk in f.chunks():
             destination.write(chunk)
 

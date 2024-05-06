@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="{% static 'Css/voice.css' %}">
     <link rel="stylesheet" href="{% static 'Css/translate.css' %}">
     <link rel="stylesheet" href="{% static 'Css/voice-overlay.css' %}">
-    <title>{% trans "PlantId" %}</title>
+    <title>{% trans "Results" %}</title>
 </head>
 <body>
   <div class="voice">
@@ -74,13 +74,13 @@
                   </div>
                   <div class="menu">
                     <ul>
-                         <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
-                         <li><a href="/profile1">{% trans "Profile" %}</a></li>
-                         <li><a href="/imgupload">{% trans "Plant ID" %}</a></li>
+                         <li><a href="/home">{% trans "Home" %}</a></li>
+                         <li><a href="/directory">{% trans "Directory" %}</a></li>
+                         <li><a href="/imgupload">{% trans "Plant Identify" %}</a></li>
                          <li><a href="/weather">{% trans "Weather Prediction" %}</a></li>
-                         <li><a href="#">{% trans "Government Schemes" %}</a></li>
+                         <li><a href="/GovtScheme">{% trans "Government Schemes" %}</a></li>
                          <li><a href="/map">{% trans "Map" %}</a></li>
-                         <li><a href="#">{% trans "Forum" %}</a></li>
+                         {% comment %} <li><a href="#">{% trans "Forum" %}</a></li> {% endcomment %}
                     </ul>
                </div>
                <div class="background1">
@@ -102,7 +102,7 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-12">
                         <h5>{{plant_name}}</h5>
-                    <img src="img.jpg" alt="plantimg" style="width: 80%; height:80%;">
+                    <img src={% static "img.jpg" %} alt="plantimg" style="width: 80%; height:80%;">
                 </div>
     
                 <div class="col-lg-6 col-sm-8">
