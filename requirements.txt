@@ -20,3 +20,4 @@ nltk
 mysql
 torch
 mysql-connector
+google-generativeai

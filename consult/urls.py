@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('consult', views.chatbot_view, name='consult'), 
+    path('consult', views.chat, name='chat'), 
+    path('consult/ask_question/', views.ask_question, name='ask_question')
 ]

@@ -14,7 +14,7 @@ def identify_plant(file_names):
         # disease details docs: https://github.com/flowerchecker/Plant-id-API/wiki/Disease-details
         # plant details docs: https://github.com/flowerchecker/Plant-id-API/wiki/Plant-details
     params = {
-        "api_key": "r9T54HmSyf6xc1TBgS6HH1FThIa8Z3IhYoU2MalueQ0IPZT6f4",
+        "api_key": "",
         "images": [encode_file(img) for img in file_names],
         "latitude": 49.1951239,
         "longitude": 16.6077111,

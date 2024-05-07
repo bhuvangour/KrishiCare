@@ -6,7 +6,7 @@ from django.views.generic import TemplateView
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.models import User, auth
-from .models import NewUser
+
 import speech_recognition as sr
 
 
@@ -73,17 +73,7 @@ def register(request):
         confirm_password = request.POST['confirm_password']
 
         if password == confirm_password:
-            if NewUser.objects.filter(email=email).exists(): #Same Email so again redirect to signup page
-                messages.info(request, 'email already exists')
-                return redirect(register)
-            else:
-                user = NewUser.objects.create_user(email=email, first_name=first_name, password=password)
-                user.set_password(password)
-                user.save()
-                print("success")
-                auth.login(request, user)
-                # return redirect(home)
-                return redirect(index)
+            return redirect(register)
         else:
             messages.info(request, 'Both passwords are not matching')
             return redirect(register)

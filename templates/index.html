@@ -30,7 +30,7 @@
 <body>
 
 
-  <div id="overlay" onclick="overlay_off()">
+ <!-- <div id="overlay" onclick="overlay_off()">
     <div class="overlayBox">
       <div id="text">{% trans "Speak Now" %}</div>
     </div>
@@ -44,7 +44,7 @@
         <button type='submit' name='vr2' onclick="overlay_on()"><i class="fa-solid fa-microphone"></i></button>
       </form>
     </div>
-  </div>
+  </div> -->
 
   <div class="translate-inner">
     <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
@@ -135,12 +135,12 @@
 
     <div class="menu-link">
       <ul>
-        <li><a href="/">{% trans "|  Home  |" %}</a></li>
-        <li><a href="/imgupload">{% trans "  Plant Identification  |" %}</a></li>
-        <li><a href="/weather">{% trans "  Weather Forecast  |"%}</li>
-        <li><a href="/GovtScheme">{% trans "  Government Schemes  |" %}</a></li>
-        <li><a href="/directory">{% trans "  Directory  |" %}</a></li>
-        <li><a href="/map">{% trans "  Map  |" %}</a></li>
+        <li><a href="/">{% trans "Home" %}</a></li>
+        <li><a href="/consult">{% trans "Consultation" %}</a></li>
+        <li><a href="/weather">{% trans "Weather Forecast"%}</li>
+        <li><a href="/map">{% trans "Map" %}</a></li>
+        <li><a href="/GovtScheme">{% trans "Government Schemes" %}</a></li>
+        <!--<li><a href="/directory">{% trans "Directory" %}</a></li> -->
       </ul>
     </div>
 
@@ -166,13 +166,13 @@
         style="height:80px; width:120px;"></a>
     <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
-      <a href="/home">| Home |</a>
-      <a href="/map">Map |</a>
-      <a href="/imgupload">Plant Identification |</a>
-      <a href="/GovtScheme">Government Schemes |</a>
-      <a href="/consultation">Consultation |</a>
-      <a href="/login_user">Login |</a>
-      <a href="/register">SignUp |</a>
+      <a href="/home">Home</a>
+      <a href="/map">Map</a>
+      <a href="/imgupload">Plant Identification</a>
+      <a href="/GovtScheme">Government Schemes</a>
+      <a href="/consultation">Consultation</a>
+      <a href="/login_user">Login</a>
+      <a href="/register">SignUp</a>
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -304,7 +304,7 @@
           <div class="tabs"><a href="#" target="blank">{% trans "Rent/Sell" %}</a></div>
         </div>
         <div class="rectangle"><img src="{% static 'Images/5516.jpg' %}"" style=" position:relative; top:20px;
-            left:100px; width:550px; height:350px; border-radius:20px;"></div>
+            left:20px; width:550px; height:350px; border-radius:20px;"></div>
       </div>
     </div>
   </div>
@@ -339,6 +339,7 @@
         <ul>
           <li><a href="#">{% trans "About Us" %}</a></li>
           <li></span><a href="#">{% trans "Contact Us" %}</a></li>
+          <li></span><a href="https://sxarlett.co/">{% trans "Made by Sxarlett" %}</a></li>
         </ul>
       </div>
 
@@ -349,7 +350,7 @@
           <!-- <li><a href="https://krishiCareforum.epizy.com/?i=1">{% trans "Forum" %}</a></li> -->
           <li><a href="#">{% trans "Voice Assistant" %}</a></li>
           <li><a href="/weather">{% trans "Weather Prediction" %}</a></li>
-          <li><a href="#">{% trans "Database Analysis" %}</a></li>
+          <li><a href="/directory">{% trans "Directory" %}</a></li>
           <li><a href="/GovtScheme">{% trans "Government Scheme" %}</a></li>
         </ul>
       </div>

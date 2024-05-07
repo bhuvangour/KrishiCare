@@ -59,8 +59,8 @@ SITE_ID = 1
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'APP': {
-            'client_id': '603855679745-2mb4ehjk4vee3cjmshmsv945rlbgc1dj.apps.googleusercontent.com',
-            'secret': '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',
+            'client_id': '',
+            'secret': '',
             'key': ''
         }
     }
@@ -147,7 +147,7 @@ gettext = lambda s: s
 LANGUAGES = (
     ('en-us', ('English')),
     ('hi', ('Hindi')),
-    ('mr', ('Marathi'))
+    ('kn', ('Kannada'))
 )
 
 LOCALE_PATHS = (
@@ -174,5 +174,5 @@ CSRF_TRUSTED_ORIGINS = ['https://5cd4-14-98-233-17.in.ngrok.io']
 
 
 #User Model
+LOGIN_URL = "/admin/login"
 AUTH_USER_MODEL = 'home.NewUser'
-
