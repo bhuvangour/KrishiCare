@@ -1,9 +1,3 @@
----
-runme:
-  id: 01HQZ3WD4GGREC2RCE9AZRSZWJ
-  version: v3
----
-
 <br>
 <p align="center">
     <img src="static/Images/Logo.png" alt="logo" width="600">
@@ -36,7 +30,7 @@ India is predominantly an agricultural country. Farming is a major occupation in
 Run the following commands (dev build)
 You can skip creating a virtual environment if there are errors.
 
-```sh {"id":"01HQZ4SVEKP6088210YNNXH84Y"}
+```sh
 python -m venv venv
 ./venv/Scripts/Activate.ps1
 python -m pip install -r requirements.txt
@@ -45,7 +39,12 @@ python -m pip install -r requirements.txt
 
 Next
 
-```sh {"id":"01HQZ4XKGT0HW3CHNHM6BEQ87F"}
-python manage.py collectstatic 
+```sh
+python manage.py collectstatic
+python manage.py makemigrations
+python manage.py migrate --sync-db
+python manage.py createsuperuser 
 python manage.py runserver
 ```
+
+Project developed by - [Sxarlett<3](https://sxarlett.co)
