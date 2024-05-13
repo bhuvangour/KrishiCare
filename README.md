@@ -47,4 +47,5 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 Base Taken from KrishiUnnati - Github
+
 Project developed by - [Sxarlett<3](https://sxarlett.co)
