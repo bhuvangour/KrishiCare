@@ -9,7 +9,6 @@
 </p>
 
 ## Table of Contents
-
 - [Problem Statement](#problem-statement)
 - [Description of Project](#description-of-project)
 - [Top Features](#top-features)
